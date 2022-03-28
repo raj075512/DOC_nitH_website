@@ -14,7 +14,7 @@ body{
     /* align-items: center; */
     line-height: 2;
     color:var(--color-bg1);
-    background:linear-gradient(rgb(0, 7, 15),rgb(104, 5, 143) )
+    background:linear-gradient(rgb(3, 30, 61),rgb(84, 5, 116) )
 }
 /* body {
     display: flex;
@@ -66,7 +66,7 @@ body{
 
 header{
   /* border:2px solid red; */
-  background:linear-gradient(rgb(10, 8, 110),rgb(69, 1, 90));
+  background:linear-gradient(rgb(7, 50, 116),rgb(55, 2, 71));
 }
 
 h2{
@@ -234,6 +234,7 @@ header{
     align-items: center;
     gap:3rem;
     height: 70%;
+    /* border:2px solid red; */
     width:100%;
 }
 
@@ -305,7 +306,7 @@ ul{
 }
 
 .window-scroll{
-    background-color: rgba(156, 42, 167, 0.897);
+    background-color: rgba(163, 12, 177, 0.897);
     box-shadow: 1px 12px 24px solid rgb(167, 151, 151);
     /* border:0.1px solid rgb(18, 170, 18); */
     border-radius: 6px ;
@@ -333,7 +334,7 @@ ul{
 }
 .nav_container{
   /* border:2px solid rgb(0, 119, 255); */
-  background: linear-gradient(rgb(3, 3, 85),rgb(79, 3, 109));
+  background: linear-gradient(rgb(3, 3, 85),rgb(60, 4, 82));
   border-radius: 12px;
 }
 #new_projects{
@@ -764,7 +765,7 @@ for responsive  footer */
     }
     .footer_container {
         display: grid;
-      
+        
         grid-template-columns: repeat(1,2fr);
         gap: 30px;
         width: 100%;
@@ -779,8 +780,9 @@ for responsive  footer */
     }
     .header_container{
       /* border:2px solid red; */
-      width: 95%;
-      height: 60vh;
+      width: 90%;
+      /* background-color: red; */
+      height: 100vh;
       
     }
     section h2 {
@@ -843,7 +845,8 @@ for responsive  footer */
 .categries{
     background-color: rgb(0, 0, 0);
     box-shadow: 2px 3px 23px solid white;
-    border-radius: 3px;   margin: 0px auto;
+    border-radius: 3px;  
+     margin: 0px auto;
 
 }
 .projects h2{
@@ -865,7 +868,7 @@ footer{
 }
 .header_container{
   /* border:2px solid red; */
-  width: 95%;
+  width: 97%;
   height: 80vh;
   
 }
