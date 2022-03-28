@@ -2,6 +2,10 @@
 window.addEventListener("scroll",()=>{
     document.querySelector('nav').classList.toggle('window-scroll', window.scrollY >0 )
 });
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display="none";
+})
 
 
 // const icon=faq.querySelector(".faq_icon i");
