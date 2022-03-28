@@ -375,7 +375,7 @@ section h2{
     color:whitesmoke;
 }
 .categries{
-    background-color: rgb(79, 50, 160);
+    background-color: rgb(59, 15, 32);
 }
 #cate_img{
     /* border:2px solid rgb(196, 228, 14); */
@@ -402,6 +402,11 @@ bold{
 
 footer i{
     color:white;
+}
+.header_container {
+    /* border: 2px solid red; */
+    width: 97%;
+    height: 60vh;
 }
 
 
@@ -743,7 +748,7 @@ h2{
 .footer_container{
     margin:auto 0px;
     /* border:2px solid red; */
-    background:linear-gradient(rgb(100, 10, 100),rgb(87, 11, 83));
+    background:linear-gradient(rgb(14, 1, 14),rgb(71, 10, 68));
 }
 
 
@@ -756,6 +761,12 @@ for responsive  footer */
 
 @media (max-width:751px)
 {
+    .header_container{
+        /* border:2px solid red; */
+        width: 99%;
+        height: 63vh;
+        
+      }
     .footer_things {
         display: grid;
         bottom: 0px;
@@ -864,11 +875,11 @@ footer{
   
 }
 .quick_links ul{
-  background: rgb(168, 11, 77);
+  background: rgb(31, 7, 68);
 }
 .header_container{
   /* border:2px solid red; */
-  width: 97%;
-  height: 80vh;
+  width: 99%;
+  height: 63vh;
   
 }
