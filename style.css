@@ -761,10 +761,16 @@ for responsive  footer */
 
 @media (max-width:751px)
 {
-    .header_container{
+    
+      .quick_links ul{
+        background: rgb(31, 7, 68);
+      }
+      .header_container{
         /* border:2px solid red; */
         width: 99%;
         height: 63vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
         
       }
     .footer_things {
@@ -789,13 +795,7 @@ for responsive  footer */
         bottom: 0;
         /* background-color: red; */
     }
-    .header_container{
-      /* border:2px solid red; */
-      width: 90%;
-      /* background-color: red; */
-      height: 100vh;
-      
-    }
+   
     section h2 {
         align-items: left;
         text-align: left;
@@ -835,11 +835,10 @@ for responsive  footer */
             background-color: rgb(21 106 39);
             border-radius: 12px 20px;
         }
-        .header_container{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
+        /* .header_container{
+           
          
-        }
+        } */
         .left_container{
             top:10px;
         }
