@@ -15,7 +15,7 @@
    margin-top: 22px;
    /* border:2px solid rgb(241, 31, 66); */
    margin: 70px auto;
-   background:linear-gradient(rgb(180, 11, 214),rgb(82, 10, 97));
+   background:linear-gradient(rgb(156, 163, 223),rgb(82, 10, 97));
    border-radius: 0 0 14px 14px;
 }
 .contact_form{
@@ -39,7 +39,7 @@
     margin: auto 0px;
     margin-top: 50px;
     /* border: 2px solid red; */
-    background: linear-gradient(rgb(79 7 99),rgb(87, 11, 83));
+    background: linear-gradient(#42214b,rgb(87, 11, 83));
 }
 .form_name{
     display: flex;
@@ -60,7 +60,7 @@ input,textarea{
 .big-button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    background-color: rgb(255, 0, 234);
+    background-color: rgb(171, 11, 185);
     font-size: 1.1rem;
     cursor: pointer;
 }#new_value{
@@ -68,7 +68,7 @@ input,textarea{
     margin-bottom: 12px;
    position: relative;
    margin-top:12px;
-   color:rgb(185, 235, 8);
+   color:rgb(247, 245, 228);
    align-items: center;
    text-align: center;
    
