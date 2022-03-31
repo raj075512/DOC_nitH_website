@@ -917,10 +917,57 @@ footer{
     color:white; padding:0 1rem;
     position: relative;
     margin-top:0px;
+    translate: none;
 
 }
+.HeroBg{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 100vh;
+  width: 100%;
+  
+  overflow: hidden;
+}
+#video{
+   width:100%;
+   height: 100vh;
+   -o-object-fit: cover;
+   object-fit: cover;
+}
+
+.herocontainer{
+    z-index: 3;
+    height: calc(100vh -80px);
+    max-height: 100%;
+    padding:0rem calc((100vw -1300px)/2);
+}
+.heroitmes{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     height: 100vh;
+     max-height: 100%;
+     padding: 0;
+     margin-top: 90px;
+     line-height: 1.5;
+     font-weight: bold;
 
 
+}
+.hero1{
+   font-size: clamp(1.5rem ,6vw ,4rem);
+   margin-bottom: 1.1rem;
+}
+.herocontent{
+    font-size: clamp(1rem,2vw,3rem);
+    margin-bottom: 1rem;
+
+}
 .nav_bar{
     background-color: transparent;
 }
