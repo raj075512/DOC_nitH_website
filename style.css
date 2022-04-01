@@ -985,3 +985,22 @@ footer{
   background-color: rgb(60, 9, 80);
 
 }
+#main_btn{
+    border:2px solid red;
+    color:#fff;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding:16px 30px;
+    border-radius: 9px;
+    min-width:60%;
+    align-items: center;
+    text-align: center;
+
+}
+#main_btn:hover{
+  background-color: rgb(77, 9, 125);
+  transform: translateY(-2px 0.4s ) ;
+}
