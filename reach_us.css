@@ -54,13 +54,14 @@ input,textarea{
     
     padding:1.1rem;
     color:white;
- 
+     font-weight: 600;
     background: rgb(32, 8, 32);
 }
 .big-button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    background-color: rgb(171, 11, 185);
+    background-color: rgb(204, 10, 221);
+    color:white;
     font-size: 1.1rem;
     cursor: pointer;
 }#new_value{
@@ -101,8 +102,9 @@ input,textarea{
     margin-top: 22px;
     /* border: 2px solid rgb(241, 31, 66); */
     margin: 70px auto;
-    background: linear-gradient(rgb(0 0 0 / 51%),rgb(82, 10, 97));
-    border-radius: 0 0 14px 14px;
+  
+    background: linear-gradient(rgb(125, 74, 159),rgb(82, 10, 97));
+    border-radius: 0 0 24px 24px;
 }
 
 
@@ -119,4 +121,12 @@ input,textarea{
     margin:auto 0px;
     /* border:2px solid red; */
     background:linear-gradient(rgb(15, 2, 15),rgb(54, 4, 57));
+}
+.left{
+    color:rgb(231, 141, 30);
+}
+
+.info_address p{
+    color:rgb(202, 214, 224);
+    font-weight: 700;
 }

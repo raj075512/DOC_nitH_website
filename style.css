@@ -985,7 +985,7 @@ footer{
 
 }
 .hero1{
-   font-size: clamp(1.5rem ,6vw ,4rem);
+   font-size: clamp(1.8rem ,6vw ,10rem);
    margin-bottom: 1.1rem;
 }
 .herocontent{
@@ -1011,7 +1011,8 @@ footer{
 
 }
 #main_btn{
-    border:2px solid red;
+    /* border:2px solid red; */
+
     color:#fff;
     outline: none;
     border:none;
