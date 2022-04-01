@@ -918,6 +918,7 @@ footer{
     position: relative;
     margin-top:0px;
     translate: none;
+    overflow-x: hidden;
 
 }
 .HeroBg{
