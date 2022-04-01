@@ -14,7 +14,7 @@ body{
     /* align-items: center; */
     line-height: 2;
     color:var(--color-bg1);
-    background:linear-gradient(rgb(3, 30, 61),rgb(84, 5, 116) )
+    background:linear-gradient(rgb(3, 30, 61),rgb(41, 5, 56) )
 }
 /* body {
     display: flex;
@@ -756,7 +756,7 @@ h2{
 .footer_container{
     margin:auto 0px;
     /* border:2px solid red; */
-    background:linear-gradient(rgb(14, 1, 14),rgb(71, 10, 68));
+    background:linear-gradient(rgb(42, 6, 42),rgb(54, 4, 57));
 }
 
 
@@ -773,10 +773,14 @@ for responsive  footer */
       .quick_links ul{
         background: rgb(31, 7, 68);
       }
+      footer{
+        /* border:2px solid red; */
+        margin-top: 40px;
+      }
       .header_container{
         /* border:2px solid red; */
         width: 99%;
-        height: 63vh;
+        height: 100vh;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         
@@ -786,11 +790,12 @@ for responsive  footer */
         bottom: 0px;
         align-items: end;
         width: 100%;
+       
         justify-content: space-around;
     }
     .footer_container {
         display: grid;
-        
+      
         grid-template-columns: repeat(1,2fr);
         gap: 30px;
         width: 100%;
@@ -798,6 +803,19 @@ for responsive  footer */
     .copy_right p {
         padding: 2px;
         bottom: 0;
+    }
+    .content_container {
+        /* background-color: red; */
+        padding: 4rem;
+        display: grid;
+        width: 100%;
+        height: 90vh;
+        grid-template-columns: 4;
+        margin-top: 22px;
+        /* border: 2px solid rgb(241, 31, 66); */
+        margin: 70px auto;
+        background: linear-gradient(rgb(0 0 0 / 51%),rgb(82, 10, 97));
+        border-radius: 0 0 14px 14px;
     }
     .copy_right{
         bottom: 0;
@@ -863,6 +881,11 @@ for responsive  footer */
             align-items: center;
             text-align: center;
         }
+        .react_us .container{
+            /* border:2px solid green; */
+            padding:12px;
+            width:100%;
+         }
     }
 
 .categries{
@@ -1007,6 +1030,28 @@ footer{
   transform: translateY(-2px 0.4s ) ;
 }
 .categoroies{
-    border:3px solid blue;
+    /* border:3px solid blue; */
     margin-top: 40px;
+}
+bold{
+ color:rgb(0, 126, 128);
+}
+#new_events{
+    /* border:2px solid red; */
+    margin-top:100px;
+}
+
+.popular_project h2{
+    margin-top: 200px;
+  
+}
+
+.container{
+    /* border:2px solid green; */
+    /* overflow: hidden; */
+}
+.left_container {
+    align-items: center;
+    text-align: center;
+    color:white;
 }
