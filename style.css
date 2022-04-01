@@ -29,14 +29,14 @@ body{
    --color-primary:rgb(124, 27, 128);
    --color-menu:rgb(252, 6, 6);
    --color-succes:rgb(39, 20, 216);
-   --color-warning:rgb(43, 255, 0);
-   --color-danger:rgb(223, 16, 16);
+   --color-warning:rgb(174, 0, 255);
+   --color-danger:rgb(203, 19, 213);
    --color-danger-varient:rgb(0, 119, 255);
    --color-light:rgb(38, 0, 255);
    --color-black:rgb(0, 255, 34);
    --color-bg1:rgb(139, 26, 173);
-   --color-bg2:rgb(141, 15, 15);
-   --color-bg3:rgb(167, 4, 4);
+   --color-bg2:rgb(82, 15, 141);
+   --color-bg3:rgb(141, 15, 150);
 
    --container-width-lg:85%;
    --container-width-md:90%;
@@ -132,13 +132,14 @@ nav li{
 }
 .nav_menu a:hover{
   transition: all 5s ease;
+  
  
 }
 .top-btn{
     display: none;
 }
 nav li:hover{
-    background-color: rgb(91, 11, 116);
+    background-color: rgb(189, 94, 218);
     padding:2px 3px;
     transition: var(---transition);
     color:rgb(229, 233, 229);
@@ -557,7 +558,7 @@ footer i{
         height: 5.2rem;
     }
     .nav_menu li a{
-        background-color: rgb(209, 6, 40);
+        background-color: rgb(194, 11, 197);
         width:100%;
         border-radius: 16px;
         height: 100%;
@@ -565,7 +566,7 @@ footer i{
         place-items:center;
     }
     .nav_menu li a:hover{
-        background-color: rgb(190, 180, 35);
+        background-color: rgb(253, 0, 8);
         color:rgb(248, 244, 238);
         transition: all 0.2s ease;
     }
@@ -1004,4 +1005,8 @@ footer{
 #main_btn:hover{
   background-color: rgb(77, 9, 125);
   transform: translateY(-2px 0.4s ) ;
+}
+.categoroies{
+    border:3px solid blue;
+    margin-top: 40px;
 }
