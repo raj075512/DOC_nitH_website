@@ -57,8 +57,9 @@ body{
 }
 .header_container{
   background:linear-gradient(rgb(0, 7, 15),rgb(104, 5, 143) );
-  border-radius: 0 0 0px 12px;
+  border-radius: 0 0 12px 12px;
   /* border:2px solid green; */
+  
   
  
   
@@ -558,7 +559,7 @@ footer i{
         height: 5.2rem;
     }
     .nav_menu li a{
-        background-color: rgb(194, 11, 197);
+        background-color: rgb(155, 9, 158);
         width:100%;
         border-radius: 16px;
         height: 100%;
@@ -803,6 +804,7 @@ for responsive  footer */
     .copy_right p {
         padding: 2px;
         bottom: 0;
+        background-color: #080808;
     }
     .content_container {
         /* background-color: red; */
@@ -886,6 +888,12 @@ for responsive  footer */
             padding:12px;
             width:100%;
          }
+         .containerr{
+           
+            height:71vh;
+            border:0px 0px 24px 24px;
+            
+        }
     }
 
 .categries{
@@ -897,7 +905,8 @@ for responsive  footer */
 }
 .projects h2{
     /* border:3px solid rebeccapurple; */
-  margin-top: 100px;;
+  margin-top: 50px;
+ 
 }
 footer{
   /* border: 3px solid green; */
@@ -1047,12 +1056,50 @@ bold{
   
 }
 
-.container{
-    /* border:2px solid green; */
-    /* overflow: hidden; */
-}
+
 .left_container {
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     color:white;
+    /* border:3px solid #008000; */
+    /* height: 50vh; */
+    
+}
+#header{
+    /* border:2px solid red; */
+    margin-top:0px;
+    height:100vh;
+    overflow-y: hidden;
+    /* margin-bottom: 200px; */
+}
+
+
+.img_container{
+    /* border:2px solid rgb(204, 204, 187); */
+    margin-bottom: 20px;
+    height:100%;
+}
+
+    .categries {
+       
+        box-shadow: 2px 3px 23px solid white;
+        border-radius: 0px 0px 12px 12px;
+        margin: 0px auto;
+        background-color: rgb(84, 12, 102);
+    }
+    
+.categries:hover{
+    background-color: rgb(59 2 71);
+}
+.category-item{
+    border:2px solid rgb(3, 6, 3);
+}
+
+.our_team {
+    box-shadow: 1px 2px 10px rgb(99 92 92);
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background: linear-gradient( #220225,#4f0f4f);
 }
