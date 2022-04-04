@@ -8,14 +8,16 @@
     text-decoration: none;
     
 }
-body{
-   
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* align-items: center; */
-    line-height: 2;
-    color:var(--color-bg1);
-    background:linear-gradient(rgb(3, 30, 61),rgb(41, 5, 56) )
-}
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* align-items: center; */
+        line-height: 2;
+        color: var(--color-bg1);
+        /* background: linear-gradient(rgb(31 3 41),rgb(36 4 49) ); */
+        background:linear-gradient(rgb(3, 30, 61),rgb(41, 5, 56) );
+    }
+  
+
 /* body {
     display: flex;
     justify-content: center;
