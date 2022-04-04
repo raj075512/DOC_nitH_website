@@ -1105,3 +1105,9 @@ bold{
     margin-top: 150px;
     background: linear-gradient( #220225,#4f0f4f);
 }
+#contact_uss h2{
+  color:rgba(218, 76, 225, 0.985);
+}
+.info_address li p{
+    color:rgb(253, 244, 244);
+}
