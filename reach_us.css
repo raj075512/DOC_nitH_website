@@ -10,7 +10,7 @@
    padding:4rem;
    display: grid;
    width:95%;
-   height:80vh;
+   height:77vh;
    grid-template-columns: 4;
    margin-top: 22px;
    /* border:2px solid rgb(241, 31, 66); */
@@ -21,8 +21,8 @@
 .contact_form{
     /* border:2px solid rgb(12, 105, 12); */
     display: flex;
-    margin-bottom: 12px;;
-    height: 68vh;
+    margin-bottom: 12px;
+    height: 50vh;
     flex-direction: column;
     
     gap:1.4rem;
