@@ -821,13 +821,13 @@ for responsive  footer */
         padding: 4rem;
         display: grid;
         width: 100%;
-        height: 78vh;
+        height: 72vh;
         grid-template-columns: 4;
         margin-top: 22px;
         /* border: 2px solid rgb(241, 31, 66); */
         margin: 70px auto;
         background: linear-gradient(rgb(0 0 0 / 51%),rgb(82, 10, 97));
-        border-radius: 0 0 14px 14px;
+        border-radius: 0 0 24px 24px;
     }
     .copy_right{
         bottom: 0;
