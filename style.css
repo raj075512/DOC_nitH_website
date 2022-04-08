@@ -474,6 +474,7 @@ footer i{
     background: transparent;
     cursor:pointer;
     
+     filter:brightness(100%);
     box-shadow: 2px 2px 10px white;
     transition:transform 0.4s ease-out;
 }
