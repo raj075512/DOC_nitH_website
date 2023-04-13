@@ -1,0 +1,29 @@
+.container .icon .imgBx {
+  transform: rotate(calc(360deg / 10 * var(--i)));
+}
+
+.container .icon .imgBx img {
+  transform: rotate(calc(-360deg / 10 * var(--i)));
+}
+
+.container .icon .imgBx {
+  transform: rotate(calc(360deg / 10 * var(--i)));
+}
+
+@media (max-width: 500px) {
+  .container .icon .imgBx {
+    transform: rotate(calc(360deg / 10 * var(--i)));
+  }
+}
+
+@media (max-width: 400px) {
+  .container .icon .imgBx {
+    transform: rotate(calc(360deg / 10 * var(--i)));
+  }
+}
+
+@media (max-width: 300px) {
+  .container .icon .imgBx {
+    transform: rotate(calc(360deg / 10 * var(--i)));
+  }
+}
