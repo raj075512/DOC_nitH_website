@@ -896,7 +896,7 @@ footer {
   font-weight: bold;
 }
 .hero1 {
-  font-size: clamp(1.5rem, 5vw, 8rem);
+  font-size: clamp(1.1rem, 3vw, 6rem);
   margin-bottom: 1.1rem;
 }
 .herocontent {
